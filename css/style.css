@@ -6,14 +6,14 @@ body {
 
 @font-face {
   font-family: open-sans-r;
-  src: url(/fonts/OpenSans-Regular.woff);
+  src: url(/diplom/fonts/OpenSans-Regular.woff);
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
   font-family: open-sans-b;
-  src: url(/fonts/OpenSans-Bold.woff);
+  src: url(/diplom/fonts/OpenSans-Bold.woff);
   font-weight: 400;
   font-style: bold;
 }
@@ -27,7 +27,7 @@ body {
   padding-top: 30px;
   padding-bottom: 126px;
   font-family: open-sans-r, sans-serif;
-  background-image: url(/images/banner-bg.jpg);
+  background-image: url(/diplom/images/banner-bg.jpg);
   background-position: center 0;
   background-repeat: no-repeat;
   background-color: #666666;
@@ -191,7 +191,7 @@ body {
   padding-left: 19px;
   -webkit-appearance: none;
   -moz-appearance: none;
-  background-image: url("/svg/form-arrows.svg");
+  background-image: url("/diplom/svg/form-arrows.svg");
   background-repeat: no-repeat;
   background-position: right 10px center;
   background-size: 3%;
@@ -214,7 +214,7 @@ body {
   display: inline-block;
   width: 20px;
   height: 20px;
-  background-image: url("/svg/form-empty-circle.svg");
+  background-image: url("/diplom/svg/form-empty-circle.svg");
   background-repeat: no-repeat;
   background-position: right center;
   background-size: 20px;
@@ -234,7 +234,7 @@ body {
 }
 
 .radio:checked ~ .popup__radio__text::before {
-  background-image: url("/svg/form-circle.svg");
+  background-image: url("/diplom/svg/form-circle.svg");
   background-repeat: no-repeat;
   background-position: right center;
   background-size: 20px;
@@ -278,7 +278,7 @@ body {
 }
 
 .popup__close {
-  background-image: url("/svg/form-x.svg");
+  background-image: url("/diplom/svg/form-x.svg");
   position: absolute;
   width: 20px;
   height: 20px;
@@ -349,19 +349,19 @@ body {
 }
 
 .box__product1 {
-  background-image: url(/images/trend1.jpg);
+  background-image: url(/diplom/images/trend1.jpg);
 }
 
 .box__product2 {
-  background-image: url(/images/trend2.jpg);
+  background-image: url(/diplom/images/trend2.jpg);
 }
 
 .box__product3 {
-  background-image: url(/images/trend3.jpg);
+  background-image: url(/diplom/images/trend3.jpg);
 }
 
 .box__product4 {
-  background-image: url(/images/trend4.jpg);
+  background-image: url(/diplom/images/trend4.jpg);
 }
 
 .box__contents {
@@ -607,7 +607,7 @@ body {
   width: 48px;
   height: 48px;
   background: #b59f5b;
-  background-image: url(/svg/search.svg);
+  background-image: url(/diplom/svg/search.svg);
   background-repeat: no-repeat;
   background-size: 20px;
   background-position: center center;
@@ -616,7 +616,7 @@ body {
 }
 .button:hover {
   background: #323232;
-  background-image: url(/svg/search.svg);
+  background-image: url(/diplom/svg/search.svg);
   background-repeat: no-repeat;
   background-size: 20px;
   background-position: center center;
@@ -899,7 +899,7 @@ body {
 
 @media (min-width: 641px) and (max-width: 1200px) {
   .header {
-    background-image: url("/images/banner-bg-tablet.jpg");
+    background-image: url("/diplom/images/banner-bg-tablet.jpg");
     background-size: cover;
   }
 
@@ -992,7 +992,7 @@ body {
 
 @media (max-width: 640px) {
   .header {
-    background-image: url("/images/banner-mobile.jpg");
+    background-image: url("/diplom/images/banner-mobile.jpg");
     background-size: cover;
   }
   .search {
