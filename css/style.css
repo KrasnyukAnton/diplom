@@ -5,17 +5,11 @@ body {
 }
 
 @font-face {
-  font-family: open-sans-r;
-  src: url(/diplom/fonts/OpenSans-Regular.woff);
+  font-family: OpenSans, sans-serif;
+  src: url(/diplom/fonts/OpenSans-Regular.woff),
+    url(/diplom/fonts/OpenSans-Bold.woff);
   font-weight: 400;
   font-style: normal;
-}
-
-@font-face {
-  font-family: open-sans-b;
-  src: url(/diplom/fonts/OpenSans-Bold.woff);
-  font-weight: 400;
-  font-style: bold;
 }
 
 /*----------HEADER--------*/
@@ -26,7 +20,7 @@ body {
   margin: auto;
   padding-top: 30px;
   padding-bottom: 126px;
-  font-family: open-sans-r, sans-serif;
+  font-family: OpenSans, sans-serif;
   background-image: url(/diplom/images/banner-bg.jpg);
   background-position: center 0;
   background-repeat: no-repeat;
@@ -68,7 +62,7 @@ body {
   color: #ffffff;
 }
 
-.menu-list-item:nth-child(n + 2) {
+.menu-list-item-margin {
   margin-left: 35px;
 }
 
@@ -77,7 +71,7 @@ body {
 }
 
 .menu-link {
-  font-family: open-sans-r, sans-serif;
+  font-family: OpenSans, sans-serif;
   color: #ffffff;
   text-decoration: none;
   text-transform: uppercase;
@@ -91,7 +85,8 @@ body {
 .header-intro {
   max-width: 720px;
   margin: 98px auto 0 auto;
-  font-family: open-sans-b, sans-serif;
+  font-family: OpenSans, sans-serif;
+  font-weight: bold;
   font-size: 45px;
   text-transform: uppercase;
   text-align: center;
@@ -171,7 +166,7 @@ body {
 .popup__question {
   line-height: 40px;
   font-weight: 400;
-  font-family: open-sans-r;
+  font-family: OpenSans;
   color: #000000;
   font-size: 15px;
 }
@@ -186,7 +181,7 @@ body {
   font-size: 13px;
   color: #828383;
   font-weight: 400;
-  font-family: open-sans-r;
+  font-family: OpenSans;
   margin-top: 12px;
   padding-left: 19px;
   -webkit-appearance: none;
@@ -229,7 +224,7 @@ body {
   margin-top: 10px;
 }
 
-.popup__group:nth-of-type(n + 2) {
+.popup__group__margin {
   margin-left: 15px;
 }
 
@@ -268,7 +263,7 @@ body {
   line-height: 40px;
   color: #ffffff;
   font-weight: 700;
-  font-family: "Open Sans";
+  font-family: "OpenSans";
   text-transform: uppercase;
   margin-top: 26px;
   cursor: pointer;
@@ -306,7 +301,8 @@ body {
   color: #0f0d0e;
   font-weight: 700;
   text-transform: uppercase;
-  font-family: "open-sans-b";
+  font-family: "OpenSans";
+  font-weight: bold;
   margin-top: 15px;
 }
 .container {
@@ -344,7 +340,7 @@ body {
   opacity: 0.6;
 }
 
-.box:nth-child(n + 2) {
+.box__margin {
   margin-left: 4px;
 }
 
@@ -377,7 +373,8 @@ body {
   line-height: 24px;
   color: #ffffff;
   font-weight: 700;
-  font-family: "open-sans-b";
+  font-family: "OpenSans";
+  font-weight: bold;
 }
 .box__link:hover {
   text-shadow: 1px 0 1px rgb(0, 0, 0);
@@ -419,7 +416,8 @@ body {
   line-height: 24px;
   color: #b59f5b;
   font-weight: 700;
-  font-family: "open-sans-b";
+  font-family: "OpenSans";
+  font-weight: bold;
   text-transform: uppercase;
   word-spacing: 15px;
   display: inline-block;
@@ -445,7 +443,8 @@ body {
   line-height: 24px;
   color: #0f0d0e;
   font-weight: 700;
-  font-family: "open-sans-b";
+  font-family: "OpenSans";
+  font-weight: bold;
   text-transform: uppercase;
   margin-top: 5px;
   text-decoration: none;
@@ -460,7 +459,7 @@ body {
   line-height: 40px;
   color: #888888;
   font-weight: 400;
-  font-family: "open-sans-r";
+  font-family: "OpenSans";
 }
 
 .author {
@@ -468,7 +467,8 @@ body {
   line-height: 40px;
   color: #000000;
   font-weight: 700;
-  font-family: "open-sans-b";
+  font-family: "OpenSans";
+  font-weight: bold;
 }
 
 .article__description {
@@ -476,7 +476,7 @@ body {
   line-height: 22px;
   color: #0f0d0e;
   font-weight: 400;
-  font-family: "open-sans-r";
+  font-family: "OpenSans";
   margin: 0;
 }
 
@@ -502,14 +502,14 @@ body {
   font-size: 14px;
   color: #0f0d0e;
   font-weight: 700;
-  font-family: "open-sans-b";
+  font-family: "OpenSans";
   text-transform: uppercase;
   text-align: center;
   margin-block-start: 0;
   font-weight: bold;
 }
 
-.caption:nth-child(n + 2) {
+.caption__margin {
   margin-top: 60px;
 }
 
@@ -555,7 +555,7 @@ body {
   font-size: 12px;
   color: #989898;
   font-weight: 400;
-  font-family: "open-sans-r";
+  font-family: "OpenSans";
 }
 
 .post__link {
@@ -563,9 +563,10 @@ body {
   line-height: 1px;
   color: #000000;
 
-  font-family: "open-sans-b";
+  font-family: "OpenSans";
   text-transform: uppercase;
   text-decoration: none;
+  font-weight: bold;
 }
 
 .post__link:hover {
@@ -629,7 +630,8 @@ body {
   line-height: 40px;
   color: #ffffff;
   font-weight: 700;
-  font-family: "open-sans-b";
+  font-family: "OpenSans";
+  font-weight: bold;
   background: #b59f5b;
   border: none;
   text-transform: uppercase;
@@ -668,7 +670,8 @@ body {
   display: block;
   padding: 3px 12px;
   border: 3px solid #ededed;
-  font-family: open-sans-b, sans-serif;
+  font-family: oOpenSans, sans-serif;
+  font-weight: bold;
   font-size: 12px;
   color: #0f0d0e;
   text-decoration: none;
@@ -701,7 +704,8 @@ body {
 .item-link {
   display: block;
   margin-right: 2px;
-  font-family: open-sans-b, sans-serif;
+  font-family: OpenSans, sans-serif;
+  font-weight: bold;
   font-size: 14px;
   color: #000000;
   text-decoration: none;
@@ -712,7 +716,8 @@ body {
 }
 
 .item-count {
-  font-family: open-sans-b, sans-serif;
+  font-family: OpenSans, sans-serif;
+  font-weight: bold;
   font-size: 12px;
   color: #b59f5b;
 }
@@ -738,7 +743,7 @@ body {
   flex-direction: column;
 }
 
-.product__card:nth-child(n + 2) {
+.product__card__margin {
   margin-left: 6.7%;
 }
 
@@ -764,9 +769,10 @@ body {
   line-height: 24px;
   color: #0f0d0e;
   font-weight: 700;
-  font-family: "Open Sans-b";
+  font-family: "OpenSans";
   text-transform: uppercase;
   text-decoration: none;
+  font-weight: bold;
 }
 
 .product__link:hover {
@@ -779,7 +785,7 @@ body {
   line-height: 22px;
   color: #0f0d0e;
   font-weight: 400;
-  font-family: "open-sans-r";
+  font-family: "OpenSans";
   margin: 0;
 }
 
@@ -810,7 +816,7 @@ body {
   line-height: 40px;
   color: #ffffff;
   font-weight: 700;
-  font-family: "open-sans-r";
+  font-family: "OpenSans";
   cursor: pointer;
 }
 
@@ -891,7 +897,8 @@ body {
 }
 
 .commercial-link {
-  font-family: open-sans-b, sans-serif;
+  font-family: oOpenSans, sans-serif;
+  font-weight: bold;
   font-size: 12px;
   text-decoration: none;
   color: #999999;
@@ -899,7 +906,7 @@ body {
 
 @media (min-width: 641px) and (max-width: 1200px) {
   .header {
-    background-image: url("/diplom/images/banner-bg-tablet.jpg");
+    background-image: url("/images/banner-bg-tablet.jpg");
     background-size: cover;
   }
 
@@ -932,10 +939,6 @@ body {
   }
   .box:nth-child(n + 3) {
     margin-top: 4px;
-  }
-
-  .box:nth-child(n) {
-    margin-left: 0px;
   }
 
   .box:nth-child(2n) {
@@ -1079,11 +1082,8 @@ body {
     width: auto;
   }
 
-  .product__card:nth-child(n + 2) {
+  .product__card__margin {
     margin-top: 24px;
-  }
-
-  .product__card:nth-child(n + 2) {
     margin-left: 0;
   }
 }
