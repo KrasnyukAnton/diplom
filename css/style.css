@@ -6,10 +6,15 @@ body {
 
 @font-face {
   font-family: OpenSans, sans-serif;
-  src: url(/diplom/fonts/OpenSans-Regular.woff),
-    url(/diplom/fonts/OpenSans-Bold.woff);
+  src: url(https://netology-code.github.io/html-2-diploma/sources/fonts/OpenSans-Regular.woff);
   font-weight: 400;
   font-style: normal;
+}
+@font-face {
+  font-family: OpenSans, sans-serif;
+  src: url(https://netology-code.github.io/html-2-diploma/sources/fonts/OpenSans-Bold.woff);
+  font-weight: 400;
+  font-style: bold;
 }
 
 /*----------HEADER--------*/
