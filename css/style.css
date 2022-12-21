@@ -5,16 +5,14 @@ body {
 }
 
 @font-face {
-  font-family: OpenSans, sans-serif;
+  font-family: OpenSans;
   src: url(https://netology-code.github.io/html-2-diploma/sources/fonts/OpenSans-Regular.woff);
-  font-weight: 400;
-  font-style: normal;
+  font-weight: normal;
 }
 @font-face {
-  font-family: OpenSans, sans-serif;
+  font-family: OpenSans;
   src: url(https://netology-code.github.io/html-2-diploma/sources/fonts/OpenSans-Bold.woff);
-  font-weight: 400;
-  font-style: bold;
+  font-weight: bold;
 }
 
 /*----------HEADER--------*/
